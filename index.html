@@ -6,8 +6,10 @@
 <title>Idorsia</title>
 <style>
   html, body { margin: 0; height: 100%; background: #ffffff; }
-  body { display: flex; align-items: center; justify-content: center; padding: 8% 10%; box-sizing: border-box; }
-  img { max-width: 100%; max-height: 100%; width: auto; height: auto; display: block; }
+  body { display: flex; align-items: center; justify-content: center; padding: 16px; box-sizing: border-box; }
+  /* Change --logo-width to make the logo bigger or smaller */
+  :root { --logo-width: 200px; }
+  img { width: var(--logo-width); max-width: 90%; max-height: 80%; height: auto; object-fit: contain; display: block; }
 </style>
 </head>
 <body>
